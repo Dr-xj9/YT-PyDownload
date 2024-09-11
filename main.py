@@ -10,7 +10,7 @@ from tkinter import PhotoImage
 import os
 # changed client from default ANDROID_MUSIC
 from pytube.innertube import _default_clients
-_default_clients["ANDROID_MUSIC"] = _default_clients["WEB"]
+_default_clients[ "ANDROID_MUSIC"] = _default_clients[ "ANDROID_CREATOR" ]
 
 class Interfaz():
     def __init__(self, root):
